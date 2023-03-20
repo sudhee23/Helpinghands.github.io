@@ -1,0 +1,189 @@
+body{
+    font-family: 'Montserrat',sans-serif;
+    margin-bottom:0;
+}
+
+.container-fluid{
+    padding:3% 15% 7%;
+}
+
+h1{
+    font-family: 'Montserrat-Black',sans-serif;
+    size:4rem;
+    line-height:1.5;
+    font-weight:900;
+    padding-top:4rem;
+    color:#fff;
+}
+
+h2{
+    font-family: 'Montserrat-bold',sans-serif;
+    font-size:3rem;
+    line-height:1.5;
+    font-weight:bold;
+}
+
+h3{
+    font-family: 'Montserrat-bold',sans-serif;
+    font-size: 2rem;
+    font-weight:bold;
+} 
+
+a{
+    text-decoration:none;
+}
+
+/* Title logo */
+
+#title{
+    background-color: #557571;
+}
+
+#logo{
+    height:20rem;
+    transform:rotate(25deg);
+    padding-top:1.5rem;
+    position:absolute;
+    right:15%;
+    top:20%;
+}
+
+/* Download Buttons */
+
+.download-button{
+    margin:5% 3% 5% 0;
+}
+
+/*Navbar decoration*/
+
+.navbar{
+    padding:0 0 2.5rem 0;
+}
+.navbar-brand{
+    font-family:'Ubuntu',sans-serif;
+    font-size:2.5rem;
+    font-weight:bold;
+}
+.nav-item{
+    padding:0 18px;
+}
+.nav-link{
+    font-size:1.2rem;
+    font-family:'Montserrat';
+}
+
+/* Features section */
+
+#features{
+    padding:7% 15%;
+    background-color: #fff;
+    position:relative;
+}
+.feature-box{
+    padding:3%;
+    text-align:center;
+}
+.feautureicon{
+    padding:1rem;
+    color:#ef8172;
+}
+.feautureicon:hover{
+    color:#ff4c68;
+}
+
+.featuretext{
+    color:#8f8f8f;
+}
+
+/* Testimonials section */
+
+.gallery-img{
+    width:100%;
+    height:40rem;
+}
+
+/* details section */
+
+#details{
+    padding:100px;
+    text-align:center;
+}
+
+.btn-block{
+    display:block;
+    width:100%;
+}
+
+.details-column{
+    padding:4% 3%;
+
+}
+
+/* Card decoration */
+
+.card-body{
+    font-weight:800px;
+    line-height:3rem;
+}
+
+.card-head{
+    padding:5%;
+}
+
+.card-button{
+    padding-top:5%;
+}
+
+.card-button:hover{
+    background-color:#245526;
+}
+
+/* Footer decoration */
+
+footer{
+    background-color:#79B4B7;
+    text-align:center;
+    padding-top:3%;
+    color:#fff;
+}
+
+.footer-icon{
+    color:#fff;
+    padding:2% 1%;
+}
+
+.footer-icon:hover{
+    color: #757555;
+}
+
+.footer-body{
+    padding:10px;
+    margin-bottom:0rem;
+    font-size:0.85rem;
+}
+
+/* Fun page */
+
+#justforfun{
+    margin:7% 15%;
+    background-color:#7F8487;
+    color:#fff;
+}
+
+.fun-img{
+    height:7rem;
+}
+
+@media (max-width:900px) {
+    #title{
+        text-align: center;
+    }
+
+    #logo{
+        position: static;
+        transform:rotate(0deg);
+        height:15rem;
+
+    }
+}
+
